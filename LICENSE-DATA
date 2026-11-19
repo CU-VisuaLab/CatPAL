@@ -1,0 +1,19 @@
+CatPAL model data and shape artwork
+Copyright (c) 2026 Chin Tseng, Arran Zeyu Wang, Yunqi Li, and Danielle Albers Szafir
+
+The model data (catpal_model_data.json) and the shape artwork (the SVG files
+and shapes.json), wherever they appear in this repository or in the published
+packages, are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You may share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit. Please credit it by citing:
+
+  Chin Tseng, Arran Zeyu Wang, Yunqi Li, and Danielle Albers Szafir.
+  CatPAL: Task-Aware Learning for Categorical Palette Recommendation.
+  arXiv:2608.09108, 2026. https://arxiv.org/abs/2608.09108
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+All source code in this repository is licensed separately under the MIT
+License; see the LICENSE file.

@@ -1,0 +1,14 @@
+# JavaScript
+node_modules/
+js/dist/
+*.tgz
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+python/build/
+python/dist/
+.venv/
+
+.DS_Store

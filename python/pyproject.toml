@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catpal"
+version = "0.1.0"
+description = "Task-aware categorical palette recommendation for data visualization: color, shape, and redundant (color + shape) palettes ranked by predicted accuracy for your analysis task."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT AND CC-BY-4.0" }
+authors = [
+  { name = "Chin Tseng" },
+  { name = "Arran Zeyu Wang" },
+  { name = "Yunqi Li" },
+  { name = "Danielle Albers Szafir" },
+]
+keywords = ["data-visualization", "color-palette", "categorical", "palette", "shape", "perception", "visualization"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/CU-VisuaLab/CatPAL"
+Issues = "https://github.com/CU-VisuaLab/CatPAL/issues"
+Paper = "https://arxiv.org/abs/2608.09108"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+catpal = ["data/*.json", "py.typed"]

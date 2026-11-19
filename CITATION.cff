@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use CatPAL, please cite the paper."
+title: "CatPAL: Task-Aware Learning for Categorical Palette Recommendation"
+type: software
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/CU-VisuaLab/CatPAL"
+url: "https://arxiv.org/abs/2608.09108"
+authors:
+  - family-names: Tseng
+    given-names: Chin
+  - family-names: Wang
+    given-names: Arran Zeyu
+  - family-names: Li
+    given-names: Yunqi
+  - family-names: Szafir
+    given-names: Danielle Albers
+preferred-citation:
+  type: article
+  title: "CatPAL: Task-Aware Learning for Categorical Palette Recommendation"
+  authors:
+    - family-names: Tseng
+      given-names: Chin
+    - family-names: Wang
+      given-names: Arran Zeyu
+    - family-names: Li
+      given-names: Yunqi
+    - family-names: Szafir
+      given-names: Danielle Albers
+  journal: "arXiv preprint arXiv:2608.09108"
+  year: 2026
+  url: "https://arxiv.org/abs/2608.09108"

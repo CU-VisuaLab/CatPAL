@@ -1,0 +1,37 @@
+{
+  "name": "catpal",
+  "version": "0.1.0",
+  "description": "Task-aware categorical palette recommendation for data visualization: color, shape, and redundant (color + shape) palettes ranked by predicted accuracy for your analysis task.",
+  "keywords": ["data-visualization", "color-palette", "categorical", "palette", "shape", "perception", "visualization"],
+  "license": "MIT AND CC-BY-4.0",
+  "author": "Chin Tseng",
+  "contributors": ["Arran Zeyu Wang", "Yunqi Li", "Danielle Albers Szafir"],
+  "homepage": "https://github.com/CU-VisuaLab/CatPAL#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/CU-VisuaLab/CatPAL.git", "directory": "js" },
+  "bugs": { "url": "https://github.com/CU-VisuaLab/CatPAL/issues" },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./index.d.ts",
+  "unpkg": "./dist/catpal.global.js",
+  "jsdelivr": "./dist/catpal.global.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["dist", "index.d.ts", "README.md", "LICENSE", "LICENSE-DATA"],
+  "sideEffects": false,
+  "engines": { "node": ">=16" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
